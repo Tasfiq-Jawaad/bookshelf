@@ -1,11 +1,13 @@
 import Banner from "@/components/homePage/Banner";
-import Card from "@/components/homePage/Card";
-import Image from "next/image";
+import CarouselCard from "@/components/homePage/CarouselCard";
 
 export default function Home() {
   return (
     <>
       <Banner />
+      <div>
+        <CarouselCard/>
+      </div>
     </>
   );
 }
