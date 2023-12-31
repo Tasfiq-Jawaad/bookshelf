@@ -5,7 +5,11 @@ export default function Home() {
   return (
     <>
       <Banner />
-      <CarouselCard />
+      <div className="mt-10">
+        <h2 className="px-6 sm:px-16 pt-6 text-2xl">Popular books</h2>
+        <CarouselCard />
+      </div>
+      
     </>
   );
 }
