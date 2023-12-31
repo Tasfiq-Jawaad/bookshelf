@@ -5,18 +5,18 @@ const WideCard = () => {
   return (
     <li className="list-none">
       <Link href={"/"}>
-        <div className="card card-compact bg-base-100 shadow-xl p-5 border border-solid ">
+        <div className="card card-compact bg-base-100 shadow-xl p-5 border border-solid w-full sm:w-min">
           <figure>
             <Image
-              className="max-w-[272px] md:max-w-[310px] lg:max-w-[370px] xl:max-w-[450px] 2xl:max-w-[271px] aspect-square object-cover"
+              className="max-w-full sm:max-w-[265px] md:max-w-[310px] lg:max-w-[360px] xl:max-w-[272px] 2xl:max-w-[271px] aspect-square object-cover rounded-2xl"
               width="928"
               height="928"
-              src="/assets/book1.png"
+              src="/assets/homeBanner1.jpg"
               alt="Shoes"
             />
           </figure>
-          <div className="card-body">
-            <h2 className="card-title">Novels</h2>
+          <div className="px-0">
+            <h2 className="card-title px-0">Novels</h2>
           </div>
         </div>
       </Link>

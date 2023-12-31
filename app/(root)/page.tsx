@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Banner />
       <section className="mt-10">
-        <h2 className="px-6 sm:px-16 py-6 text-2xl">Browse categories</h2>
+        <h2 className="px-6 lg:px-24 xl:px-4 py-6 text-2xl">Browse categories</h2>
         <CardContainer />
         <span className="flex justify-center pt-5">
           <button className="btn m-auto justify-self-center">
