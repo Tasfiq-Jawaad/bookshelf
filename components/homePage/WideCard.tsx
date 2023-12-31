@@ -5,10 +5,10 @@ const WideCard = () => {
   return (
     <li className="list-none">
       <Link href={"/"}>
-        <div className="card card-compact w-96 bg-base-100 shadow-xl pt-5 border border-solid ">
+        <div className="card card-compact bg-base-100 shadow-xl p-5 border border-solid ">
           <figure>
             <Image
-              className="w-full aspect-square object-cover"
+              className="max-w-[310px] aspect-square object-cover"
               width="928"
               height="928"
               src="/assets/book1.png"
@@ -21,6 +21,7 @@ const WideCard = () => {
         </div>
       </Link>
     </li>
+    
   );
 };
 
