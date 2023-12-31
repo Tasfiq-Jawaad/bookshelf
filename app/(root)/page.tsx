@@ -5,9 +5,7 @@ export default function Home() {
   return (
     <>
       <Banner />
-      <div>
-        <CarouselCard/>
-      </div>
+      <CarouselCard />
     </>
   );
 }
