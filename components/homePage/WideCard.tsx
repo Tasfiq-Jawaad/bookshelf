@@ -8,7 +8,7 @@ const WideCard = () => {
         <div className="card card-compact bg-base-100 shadow-xl p-5 border border-solid ">
           <figure>
             <Image
-              className="max-w-[310px] aspect-square object-cover"
+              className="max-w-[272px] md:max-w-[310px] lg:max-w-[370px] xl:max-w-[450px] 2xl:max-w-[271px] aspect-square object-cover"
               width="928"
               height="928"
               src="/assets/book1.png"
