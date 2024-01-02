@@ -16,7 +16,7 @@ const WideCard = () => {
             />
           </figure>
           <div className="px-0">
-            <h2 className="card-title px-0">Novels</h2>
+            <h2 className="font-semibold text-xl px-0 pt-5 my-0">Novels</h2>
           </div>
         </div>
       </Link>
