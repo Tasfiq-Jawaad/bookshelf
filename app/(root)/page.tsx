@@ -2,6 +2,7 @@ import Banner from "@/components/homePage/Banner";
 import CardContainer from "@/components/homePage/CardContainer";
 import CarouselCard from "@/components/homePage/CarouselCard";
 import Hero from "@/components/homePage/Hero";
+import IconCardContainer from "@/components/homePage/IconCardContainer";
 import WideCard from "@/components/homePage/WideCard";
 
 export default function Home() {
@@ -23,6 +24,9 @@ export default function Home() {
       </section>
       <section className="mt-10">
         <Hero/>
+      </section>
+      <section className="mt-10">
+        <IconCardContainer/>
       </section>
     </>
   );
