@@ -1,3 +1,4 @@
+import Accordion from "@/components/homePage/Accordion";
 import Banner from "@/components/homePage/Banner";
 import CardContainer from "@/components/homePage/CardContainer";
 import CarouselCard from "@/components/homePage/CarouselCard";
@@ -43,6 +44,10 @@ export default function Home() {
       </section>
       <section className="mt-10">
         <IconCardContainer />
+      </section>
+
+      <section className="mt-10">
+        <Accordion/>
       </section>
     </>
   );
