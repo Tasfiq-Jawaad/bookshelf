@@ -5,7 +5,7 @@ const Banner = () => {
     <figure className="px-3 relative max-h-[70svh]">
       <Image
         quality={100}
-        className="w-full h-[70svh] object-cover rounded-2xl"
+        className="w-full h-[70svh] object-fit rounded-2xl"
         height={428}
         width={1264}
         alt="Books"
