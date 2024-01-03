@@ -4,18 +4,23 @@ import CarouselCard from "@/components/homePage/CarouselCard";
 import Hero from "@/components/homePage/Hero";
 import IconCardContainer from "@/components/homePage/IconCardContainer";
 import WideCard from "@/components/homePage/WideCard";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      <Banner/>
+      <Banner />
       <section className="mt-10 px-16">
-        <h2 className="px-6 lg:px-24 xl:px-4 py-6 text-2xl">Browse categories</h2>
+        <h2 className="px-6 lg:px-24 xl:px-4 py-6 text-2xl">
+          Browse categories
+        </h2>
         <CardContainer />
         <span className="flex justify-center pt-5">
-          <button className="btn m-auto justify-self-center">
-            See all categories
-          </button>
+          <Link href={"/Categories"}>
+            <button className="btn m-auto justify-self-center">
+              See all categories
+            </button>
+          </Link>
         </span>
       </section>
       <section className="mt-10">
@@ -23,7 +28,7 @@ export default function Home() {
         <CarouselCard />
       </section>
       <section className="mt-10">
-        <Hero/>
+        <Hero />
       </section>
       <section className="mt-10 px-16">
         <h2 className="px-6 lg:px-24 xl:px-4 py-6 text-2xl">Best bundle</h2>
@@ -35,7 +40,7 @@ export default function Home() {
         </span>
       </section>
       <section className="mt-10">
-        <IconCardContainer/>
+        <IconCardContainer />
       </section>
     </>
   );
