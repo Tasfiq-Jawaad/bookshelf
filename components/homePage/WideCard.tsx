@@ -4,7 +4,7 @@ import Link from "next/link";
 const WideCard = () => {
   return (
     <li className="list-none">
-      <Link href={"/"}>
+      <Link href={"/Search"}>
         <div className="card card-compact bg-base-100  p-5  w-full sm:w-min">
           <figure>
             <Image
