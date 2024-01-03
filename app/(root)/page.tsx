@@ -34,9 +34,11 @@ export default function Home() {
         <h2 className="px-6 lg:px-24 xl:px-4 py-6 text-2xl">Best bundle</h2>
         <CardContainer />
         <span className="flex justify-center pt-5">
+          <Link href={"/Search"}>
           <button className="btn m-auto justify-self-center">
             See all bundle
           </button>
+          </Link>
         </span>
       </section>
       <section className="mt-10">
