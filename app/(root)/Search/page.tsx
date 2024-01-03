@@ -56,6 +56,13 @@ const page = () => {
           ></label>
           <div className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
             {/* Sidebar content here */}
+            <input id="my-drawer" type="checkbox" className="drawer-toggle" />
+            <label
+              htmlFor="my-drawer"
+              className="btn btn-primary drawer-button"
+            >
+              X
+            </label>
             <div className="collapse collapse-arrow bg-base-200">
               <input type="checkbox" name="my-accordion-2" />
               <div className="collapse-title text-xl font-medium">Sort by</div>
