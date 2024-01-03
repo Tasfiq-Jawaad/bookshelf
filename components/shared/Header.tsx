@@ -14,6 +14,7 @@ const Header = () => {
               className="btn px-2 btn-ghost lg:hidden"
             >
               <svg
+                xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -151,12 +152,7 @@ const Header = () => {
               role="button"
               className="btn btn-ghost btn-circle avatar"
             >
-              <div className="w-10 rounded-full">
-                <Image width={40} height={40}
-                  alt="Tailwind CSS Navbar component"
-                  src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
-                />
-              </div>
+                <p>Login</p>
             </div>
             <ul
               tabIndex={0}
