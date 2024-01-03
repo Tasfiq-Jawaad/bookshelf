@@ -8,7 +8,7 @@ import WideCard from "@/components/homePage/WideCard";
 export default function Home() {
   return (
     <>
-      <Banner />
+      <Banner/>
       <section className="mt-10 px-16">
         <h2 className="px-6 lg:px-24 xl:px-4 py-6 text-2xl">Browse categories</h2>
         <CardContainer />

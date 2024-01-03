@@ -5,11 +5,11 @@ const Banner = () => {
     <figure className="px-3 relative max-h-[70svh]">
       <Image
         quality={100}
-        className="w-full h-[70svh] object-fit rounded-2xl"
+        className="w-full h-[70svh] object-cover rounded-2xl"
         height={428}
         width={1264}
         alt="Books"
-        src={"/assets/homeBanner1.jpg"}
+        src={"/assets/hero.jpg"}
       />
       <figcaption className="absolute bottom-0 flex flex-col justify-end px-[5%] gap-4 bg-gray-800 bg-opacity-50 w-[calc(100%-24px)] h-[70svh] rounded-2xl text-white">
         <h1 className="text-5xl">Book store</h1>
