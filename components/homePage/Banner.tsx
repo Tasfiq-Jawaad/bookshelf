@@ -2,24 +2,24 @@ import Image from "next/image";
 
 const Banner = () => {
   return (
-    <figure className="hero place-items-start wrapper relative h-max ">
+    <figure className="hero wrapper relative h-max ">
       <Image
         quality={100}
-        className="w-full aspect-[10/4] object-cover rounded-2xl"
+        className="w-full h-[50svh] object-cover rounded-2xl"
         height={428}
         width={1264}
         alt="Books"
         src={"/assets/hero.jpg"}
       />
       <div className="hero-overlay rounded-2xl bg-opacity-50"></div>
-      <figcaption className="absolute w-[calc(100%-8px)] sm:w-max bottom-2 flex flex-col justify-end px-2 gap-1 rounded-2xl text-white">
-        <h1 className="text-sm sm:text-5xl font-bold">Book store</h1>
-        <p className="text-sm">Find your fav book, discuss with the community, write review</p>
-        <div className="form-control w-full">
+      <figcaption className="text-white flex flex-col items-center text-center gap-4">
+        <h1 className="font-bold text-4xl md:text-5xl">Book store</h1>
+        <p className="text-xl sm:2xl">Find your fav book, discuss with the community, write review</p>
+        <div className="form-control w-[250px] sm:w-full">
             <input
               type="text"
               placeholder="Search"
-              className="border-none outline-none rounded-lg w-full p-2 text-sm font-normal text-black"
+              className="input input-bordered rounded-lg  p-2 text-sm font-normal text-black"
             />
           </div>
       </figcaption>
