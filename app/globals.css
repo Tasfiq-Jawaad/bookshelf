@@ -6,3 +6,7 @@ body{
     max-width: 1920px;
     margin: auto;
 }
+
+.wrapper{
+ @apply px-2 md:px-4 xl:px-6
+}

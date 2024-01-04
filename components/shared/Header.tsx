@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header>
+    <header className="wrapper">
       <div className="navbar justify-between bg-base-100">
         {/* logo and hamburger menu */}
         <div className="justify-start flex-shrink w-1/2">
