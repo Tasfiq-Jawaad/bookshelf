@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const Banner = () => {
   return (
-    <figure className="hero wrapper relative h-max ">
+    <figure className="hero wrapper relative h-max">
       <Image
         quality={100}
-        className="w-full h-[50svh] object-cover rounded-2xl"
+        className="w-full h-[50vh] object-cover rounded-2xl"
         height={428}
         width={1264}
         alt="Books"
